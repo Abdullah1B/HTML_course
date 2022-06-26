@@ -1,0 +1,47 @@
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 100%;
+  margin: 0 ;
+  background: #FFF;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+
+
+/*
+ * Hero Styles
+*/
+
+section.intro{
+  padding: 40px;
+}
+
+section.contact{
+  padding: 40px;
+}
+.Hero img{
+  width: 100%;
+  border-radius:0;
+
+}
+
+aside.right{
+  text-align: center;
+  float: inherit;
+}
+
+
+aside.left{
+  text-align: center;
+  float: inherit;
+}
+
+

@@ -1,0 +1,109 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+  margin-left: 15px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+
+}
+
+
+/*
+ * Hero Styles
+*/
+
+
+.Hero img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  line-height: inherit;
+}
+
+.Hero{
+  line-height: 0;
+}
+
+
+/*
+ * intro Styles
+*/
+
+.intro{
+
+  background: #fff;
+}
+
+aside.right{
+float: right;
+}
+
+aside.left{
+  float: left;
+}
+
+aside{
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
